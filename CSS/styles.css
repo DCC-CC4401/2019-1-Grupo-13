@@ -1,21 +1,7 @@
 
 body{
-	margin: 0;
+	margin: 0 0;
 	background: gray;
-}
-nav{
-	position: absolute;
-	width: 100%;
-	background: rgb(20, 20, 66);
-}
-.home-title{
-	color: white;
-	padding: 30px;
-	margin-top: 0;
-	text-align: center;
-	position: relative;
-	
-	
 }
 
 .views{
@@ -61,7 +47,7 @@ nav{
 }
 .view-rubrica{
     display: flexbox;
-    width: 100%;
+    width: 90%;
     height: 800px;
     overflow: scroll;
     border: 1px solid black;
