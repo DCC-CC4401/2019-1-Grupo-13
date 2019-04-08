@@ -2,13 +2,13 @@ nav{
 	display: flex;
 	position: relative;
 	width: 100%;
-	background: rgb(37, 36, 36);
+	background: rgb(35, 87, 165);
 }
 .home-title{
 	display: flex;
 	position: relative;
 	width: 100%;
-	background: rgb(0, 0, 0);
+	background: rgb(2, 14, 68);
 	color: white;
 	font-family: "Libre Baskerville" sans-serif;
 	margin: 0;

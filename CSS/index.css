@@ -1,6 +1,9 @@
 body{
 	margin: 0 0;
-	background:rgb(102, 98, 98);
+    background-image: linear-gradient(rgb(19, 148, 235), white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .col-center{
