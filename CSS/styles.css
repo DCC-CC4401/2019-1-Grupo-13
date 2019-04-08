@@ -54,9 +54,7 @@ body{
 #buscar:hover{
 	cursor: pointer;
 }
-#buscar:active{
 
-}
 .lista-rubricas img{
 	width: 20px;
 	height: 20px;
@@ -143,8 +141,6 @@ table{
 	box-sizing: border-box;
 	border: 1px solid black;
 	padding: 0.35em;
-	
-	
 }
 @media (max-width: 800px){
 	.rubricas-menu{
