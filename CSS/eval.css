@@ -1,4 +1,3 @@
-
 body{
 	margin: 0 0;
     background-image: linear-gradient(rgb(4, 96, 158), white);
@@ -21,21 +20,22 @@ body{
 	padding: 20px;
 	margin: 0;
 }
-.rubricas-menu{
+.eval-menu{
 	border:1px solid black;
-	width: 24%;
+    width: 24%;
+    height: 400px;
 	background: white;
 	margin: 0 20px;
 	border-radius: 5px;
 	box-sizing: border-box;
 	box-shadow: 1px 1px 5px;
 }
-.lista-rubricas{
-	width: auto;
-	overflow: scroll;
-	height: 650px;
+.lista-eval{
+    width: auto;
+    overflow: scroll;
+    height: 310px;
 }
-.lista-rubricas ol{
+.lista-eval ol{
 	margin-top: 5px;
 	list-style-type: none;
 	font-size: 20px;
@@ -54,10 +54,8 @@ body{
 #buscar:hover{
 	cursor: pointer;
 }
-#buscar:active{
 
-}
-.lista-rubricas img{
+.lista-eval img{
 	width: 20px;
 	height: 20px;
 }
@@ -70,7 +68,7 @@ body{
 	font-size: 15px;
 
 }
-.view-rubrica{
+.view-eval{
 	background: white;
 	width: 100%;
 	border-radius: 5px;
@@ -81,7 +79,7 @@ body{
 }
 .editor-box{
 	width: auto;
-	overflow: scroll;
+	overflow: hidden;
 	height: 650px;
 }
 .menu{
@@ -138,7 +136,7 @@ body{
 table{
 	border-collapse: collapse;
 }
-.rubrica td, th{
+.eval td, th{
 	text-align: left;
 	box-sizing: border-box;
 	border: 1px solid black;
@@ -147,7 +145,7 @@ table{
 	
 }
 @media (max-width: 800px){
-	.rubricas-menu{
+	.eval-menu{
 		display: none;
 	}
 	.menu-bar{
@@ -160,17 +158,17 @@ table{
  		top:50%;
  		margin-top: -75;
 	}
-	.view-rubrica{
+	.view-eval{
 		margin: 0 20px 0 40px;
 	}
 }
 @media (max-width: 500px){
-	.rubrica{
+	.eval{
 		width: 350px;
 		height: auto;
 		overflow: scroll;
 	}
-	.view-rubrica{
+	.view-eval{
 		width: 90%;
 		margin: 0 auto;
 	}

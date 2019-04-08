@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta  name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" conten="ie=edge">
+<title>Grupo 13</title>
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+<link rel="stylesheet" href="css/banner.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<!-- banner init -->
+	<div class="home-title"><h1>Grupo 13</h1></div>
+	<nav>
+		<a href="#" class="nav-enlace descaparece"> Inicio</a>
+		<a href="#" class="nav-enlace descaparece"> Rubricas</a>
+		<a href="#" class="nav-enlace descaparece"> Cursos</a>
+		<a href="#" class="nav-enlace descaparece"> Evaluaciones</a>
+	</nav>
+	<!-- banner end -->
+	<section class="views">
+		<div class="rubricas-menu">
+			<h2>Rubricas</h2>
+			<!-- <div class="menu">
+					<div class="add menu-option">
+						<img class="icon" src="img/add.png" alt="agregar" >
+					</div>
+					<div class="delete menu-option">
+							<img class="icon" src="img/delete.png" alt="borrar" >
+					</div>
+					<div class="other menu-option">
+			
+					</div>
+			</div> -->
+
+			<div class="lista-rubricas">
+				<ol>
+                    <li>
+                        <img id="buscar" src="img/buscar.png" alt="buscar-icon">
+                        <input type="text" id="buscar-box" size="13"> </li>
+                    <li class="orden">
+                         <b>Ordenar por:</b>  <select name="orden" id="orden-select">
+						<option value="Nombre">Nombre</option>
+						<option value="Ultima modificacion"> Ultima modificacion</option>
+						<option value="Otro"> Otro a agregar...</option>
+                    </select>
+                    
+                    </li>
+
+					<li class="elemento-lista"> <img src="img/archivo.png" alt="archivo"> Rubrica 1</li>
+					<hr>
+					<li class="elemento-lista"><img src="img/archivo.png" alt="archivo"> Rubrica 2</li>
+					<hr>
+					<li class="elemento-lista"><img src="img/archivo.png" alt="archivo" > Rubrica 3</li>
+				</ol>
+			</div>
+		</div>
+		<div class="menu-bar abrir-menu">
+				<img src="img/bar.png" alt="menu" class="menu-bar-img">
+		</div>
+		<div class="view-rubrica ">
+			<h2>Editor</h2>
+			<!-- <div class="menu-view">
+					<div class="add menu-view-option">
+						<button> Agregar criterio</button>
+					</div>
+					<div class="delete menu-option">
+						<button>editar niveles de cumplimiento</button> 
+					</div>
+					<div class="other menu-option">
+			
+					</div>
+			</div> -->
+			<div class="editor-box">
+				<table class="rubrica">
+					<tr>
+						<th scope="col"> </th>
+						<th scope="col"> 0.0</th>
+						<th scope="col">0.4</th>
+						<th scope="col">0.7</th>
+						<th scope="col">1.0</th>
+					</tr>
+					<tr>
+						<td>Contenido</td>
+						<td>No incluye las interfaces
+								solicitadas
+								</td>
+						<td>Faltan la mayoria de las
+								interfaces
+								</td>
+						<td>Solo faltan 1 o 2 interfaces </td>
+						<td>Incluye todas las interfaces
+								solicitadas</td>
+					</tr>
+					<tr>
+						<td>Calidad del material</td>
+						<td>Presentación con muchos
+								errores ortográficos, todas
+								las imágenes son de baja
+								resolución
+								</td>
+						<td>Algunos errores
+								ortográficos, casi todas las
+								imágenes son de baja
+								resolución</td>
+						<td>Pocos errores ortográficos,
+								solo algunas imágenes son
+								de baja resolución
+								</td>
+						<td> Pocos errores ortográficos,
+								todas las imágenes son de
+								buena resolución
+								</td>
+					
+					</tr>
+					<tr> 
+						<td>Relación con requisitos
+								funcionales
+								</td>
+						<td>Solo describe las
+								interfaces, sin mencionar
+								requisito alguno
+								</td>
+						<td>
+								Solo para algunas de las
+								interfaces explica cómo
+								satisfacen los requisitos
+								funcionales
+						</td>
+						<td>
+								Para casi todas las
+								interfaces, explica cómo
+								satisfacen los requisitos
+								funcionales								
+						</td>
+						<td>
+								Explica claramente como
+								cada interfaz satisface los
+								requisitos funcionales
+						</td>
+					</tr>
+					<tr>
+						<td>
+								Organización de la
+								información
+								
+						</td>
+						<td>
+								No se entiende la
+								presentación porque no hay
+								secuencia lógica de
+								información								
+						</td>
+						<td>
+								Es difícil seguir la
+								presentación, porque el
+								presentador “salta” entre
+								diapositivas								
+						</td>
+						<td>
+								La información está
+								presentada en una
+								secuencia lógica
+						</td>
+						<td>
+								La información es
+								presentada en una forma
+								lógica e interesante								
+						</td>
+					</tr>
+					<tr>
+						<td>Forma</td>
+						<td>
+								No se entiende lo que dice
+								(en términos fonéticos y
+								cinéticos)
+						</td>
+						<td>
+								Se entiende lo que dice la
+								de manera parcial (su
+								cuerpo no acompaña sus
+								palabras)								
+						</td>
+						<td>
+								Se da a entender,
+								presentando de manera
+								eficiente y adecuado
+								lenguaje corporal								
+						</td>
+						<td>
+								Se da a entender siempre,
+								destacando en su forma
+								(pausas, dicción, contacto
+								visual, gesticulación, otros)								
+						</td>
+					</tr>
+					<tr>
+						<td>Entusiasmo </td>
+						<td>
+								No muestra interés en su
+								entrega
+						</td>
+						<td>
+								Se muestra algo negativo
+								acerca de su entrega								
+						</td>
+						<td>
+								Ocasionalmente habla en
+								forma positiva
+						</td>
+						<td>
+								Habla en forma positiva
+								durante casi toda la
+								presentación
+								
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
