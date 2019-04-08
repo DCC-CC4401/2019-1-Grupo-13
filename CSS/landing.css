@@ -67,6 +67,13 @@ table{
     text-align: left;
     padding: 5px;
 } 
+
+#activa{
+    color: green;
+}
+#finalizada{
+    color: red;
+}
 .gestionar{
     position: relative;
     display: block;
