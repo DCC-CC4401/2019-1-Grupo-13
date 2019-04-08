@@ -1,10 +1,13 @@
 
 body{
 	margin: 0 0;
-	background: gray;
+	background: rgb(102, 98, 98);
 }
 
 .views{
+	margin: 0 auto;
+	margin-top: 15px;
+	max-width: 1200px;
 	display: flex;
 	
 }
@@ -12,56 +15,76 @@ body{
 	background: #333333;
 	color: white;
 	padding: 20px;
-	margin: 0 ;
+	margin: 0;
 }
 .rubricas-menu{
-	display: inline-block;
 	border:1px solid black;
 	width: 24%;
 	background: white;
-	margin-right: 20px;
-	height: 800px;
-	box-sizing: border-box;
+	margin: 0 20px;
 
+	box-sizing: border-box;
+	box-shadow: 1px 1px 5px;
+}
+.lista-rubricas{
+	width: auto;
+	overflow: scroll;
+	height: 650px;
+}
+.lista-rubricas ol{
+	margin-top: 5px;
+	list-style-type: none;
+	font-size: 20px;
+	text-align: left;
+
+	padding-left: 10px;
+}
+.lista-rubricas img{
+	width: 20px;
+	height: 20px;
+}
+.elemento-lista:hover{
+	cursor: pointer;
+	color: blue;
+}
+.orden{
+	margin-bottom: 20px;
+	font-size: 15px;
 
 }
 .view-rubrica{
-	display: inline-block;
 	background: white;
-	border:1px solid black;
-	width: 65%;
-	height: 800px;
+	width: 100%;
 	box-sizing: border-box;
+	margin-right: 70px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 5px;
+}
+.editor-box{
+	width: auto;
+	overflow: scroll;
+	height: 650px;
 }
 .menu{
 	background: rgb(184, 181, 181);
-	border: 1px solid black;
-    padding: 1px;
+	/* border: 1px solid black; */
 	width: 100%;
 	display: block;
 }
 .menu-option{
 	display: inline-block;
-    margin: 0px 2px;
-    
-}
-.view-rubrica{
-    display: flexbox;
-    width: 90%;
-    height: 800px;
-    overflow: scroll;
-    border: 1px solid black;
-    
-    background: white;
+	margin: 2px 2px;
 
+    
 }
+
 .menu-bar{
 	padding: auto 0;
 	height: 100%;
 	position: absolute;
 	padding: 3px;
 	display: none;
-	margin-right: 2px;
+	margin: 0;
 }
 .menu-bar-img{
 	width: 25px;
@@ -84,8 +107,13 @@ body{
 	box-shadow: -1px -1px;
 	transition: all 0.2s;
 }
-
-@media (max-width: 600px){
+.rubrica td,th{
+	text-align: left;
+	border: 1px solid black;
+	padding: 0.35em;
+	border-collapse: collapse;
+}
+@media (max-width: 800px){
 	.rubricas-menu{
 		display: none;
 	}
@@ -100,9 +128,9 @@ body{
  		margin-top: -75;
 	}
 }
-@media (max-width: 450px){
+@media (max-width: 500px){
 	.rubrica-img{
-		width: 450px;
+		width: 500px;
 		height: auto;
 		overflow: scroll;
 	}

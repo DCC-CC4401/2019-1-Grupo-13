@@ -1,0 +1,59 @@
+body{
+	margin: 0 0;
+	background:rgb(102, 98, 98);
+}
+
+.col-center{
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+
+}
+ol h1{
+    box-sizing: border-box;
+    width: 100%;
+    background: rgba(173, 173, 173, 0.966);
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+}
+.col-center ol{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+.last-eval{
+    box-sizing: border-box;
+    width: 100%;
+}
+.eval{
+    background: white;
+    margin-top: 15px;
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+}
+.eval-title h2{
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+.eval-title a{
+    text-decoration: none;
+    color: darkslategrey;
+}
+.eval-fecha{
+    vertical-align: baseline;
+}
+.eval-fecha p{
+    margin: 0;
+    padding-left: 7px;
+    color: gray;
+}
+.eval-descripcion{
+    margin-top: 13px;
+}
+.eval-descripcion p{
+    margin: 10px 0;
+}
+
