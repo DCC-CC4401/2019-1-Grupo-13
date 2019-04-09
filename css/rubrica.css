@@ -1,0 +1,38 @@
+
+.menu{
+    background: rgb(184, 181, 181);
+    padding: 1px;
+    width: 100%;
+    display: flex;
+}
+.menu-option{
+    display: inline-block;
+    margin: 0px 2px;
+    
+}
+.view-rubrica{
+    display: flexbox;
+    width: 100%;
+    height: 800px;
+    overflow: scroll;
+    border: 1px solid black;
+    
+    background: white;
+
+}
+.rubrica-img{
+    width: 100%;
+    overflow: hidden;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.menu-option:hover{
+    border: 1px solid black;
+    box-shadow: 1px 1px;
+}
+.menu-option:active{
+    background: grey;
+    box-shadow: -1px -1px;
+}
