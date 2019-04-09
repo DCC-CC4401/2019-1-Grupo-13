@@ -9,7 +9,7 @@ body{
 .views{
 	margin: 0 auto;
 	margin-top: 15px;
-	max-width: 1300px;
+	max-width: 1400px;
 	display: flex;
 	
 	
@@ -31,6 +31,7 @@ body{
 	box-shadow: 1px 1px 5px;
 }
 .lista-eval{
+    margin-top: 15px;
     width: auto;
     overflow: scroll;
     height: 390px;
