@@ -1,4 +1,3 @@
-
 body{
 	margin: 0 0;
     background-image: linear-gradient(rgb(4, 96, 158), white);
@@ -34,7 +33,7 @@ body{
 .lista-rubricas{
 	width: auto;
 	overflow: scroll;
-	height: 395px;
+	height: 376px;
 }
 .lista-rubricas ol{
 	margin-top: 5px;
@@ -47,6 +46,21 @@ body{
 #buscar-box{
 	display: inline-flex;
 }
+.menu-view{
+    margin:10px;
+}
+.edit{
+    background: rgb(6, 47, 75);
+    color: white;
+    padding: 8px;
+}
+
+.guardar{
+    background:  rgb(6, 47, 75);
+    color: white;
+    padding: 8px;
+    font-size: 17px;
+}
 #buscar{
 	width: 20px;
 	height: 20px;
@@ -57,8 +71,15 @@ body{
 }
 
 .lista-rubricas img{
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
+}
+.elemento-lista{
+    padding: 5px;
+}
+.mas-menos{
+    display: flex;
+    border: 0px;
 }
 .elemento-lista:hover{
 	cursor: pointer;
@@ -99,6 +120,9 @@ body{
 	/* border: 1px solid black; */
 	width: 100%;
 	display: block;
+}
+.lista-rubricas hr{
+    margin: 0;
 }
 .menu-option{
 	display: inline-block;

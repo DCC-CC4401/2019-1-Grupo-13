@@ -7,7 +7,7 @@
 <title>Grupo 13</title>
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
 <link rel="stylesheet" href="css/banner.css">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/rub-admin.css">
 </head>
 <body>
 	<!-- banner init -->
@@ -36,6 +36,9 @@
 
 			<div class="lista-rubricas">
 				<ol>
+						<li>
+								<img id="buscar" src="img/buscar.png" alt="buscar-icon">
+								<input type="text" id="buscar-box" size="13"> </li>
 					<li class="orden"> <b>Ordenar por:</b>  <select name="orden" id="orden-select">
 						<option value="Nombre">Nombre</option>
 						<option value="Ultima modificacion"> Ultima modificacion</option>
@@ -53,16 +56,10 @@
 				<img src="img/bar.png" alt="menu" class="menu-bar-img">
 		</div>
 		<div class="view-rubrica ">
-			<h2>Editor</h2>
+			<h2>Nombre Rúbrica</h2>
 			<div class="menu-view">
-					<div class="add menu-view-option">
-						<button> Agregar criterio</button>
-					</div>
-					<div class="delete menu-option">
-						<button>editar niveles de cumplimiento</button> 
-					</div>
-					<div class="other menu-option">
-			
+					<div class="menu-option">
+						<button class="edit">Editar niveles de cumplimiento</button> 
 					</div>
 			</div>
 			<div class="editor-box">
@@ -85,6 +82,13 @@
 						<td>Solo faltan 1 o 2 interfaces </td>
 						<td>Incluye todas las interfaces
 								solicitadas</td>
+						<td>
+							<div class="mas-menos">
+									<a href=""><img src="img/menos.png" alt="menos" width="20px" height="20px"></a>
+									<a href=""><img src="img/mas.png" alt="menos" width="20px" height="20px"></a> 
+				
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td>Calidad del material</td>
@@ -105,6 +109,13 @@
 								todas las imágenes son de
 								buena resolución
 								</td>
+						<td>
+							<div class="mas-menos">
+									<a href=""><img src="img/menos.png" alt="menos" width="20px" height="20px"></a>
+									<a href=""><img src="img/mas.png" alt="menos" width="20px" height="20px"></a> 
+				
+							</div>
+						</td>
 					
 					</tr>
 					<tr> 
@@ -131,6 +142,13 @@
 								Explica claramente como
 								cada interfaz satisface los
 								requisitos funcionales
+						</td>
+						<td>
+							<div class="mas-menos">
+									<a href=""><img src="img/menos.png" alt="menos" width="20px" height="20px"></a>
+									<a href=""><img src="img/mas.png" alt="menos" width="20px" height="20px"></a> 
+				
+							</div>
 						</td>
 					</tr>
 					<tr>
@@ -161,6 +179,13 @@
 								presentada en una forma
 								lógica e interesante								
 						</td>
+						<td>
+							<div class="mas-menos">
+									<a href=""><img src="img/menos.png" alt="menos" width="20px" height="20px"></a>
+									<a href=""><img src="img/mas.png" alt="menos" width="20px" height="20px"></a> 
+				
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td>Forma</td>
@@ -187,6 +212,13 @@
 								(pausas, dicción, contacto
 								visual, gesticulación, otros)								
 						</td>
+						<td>
+							<div class="mas-menos">
+									<a href=""><img src="img/menos.png" alt="menos" width="20px" height="20px"></a>
+									<a href=""><img src="img/mas.png" alt="menos" width="20px" height="20px"></a> 
+				
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td>Entusiasmo </td>
@@ -208,8 +240,28 @@
 								presentación
 								
 						</td>
+						<td>
+							<div class="mas-menos">
+									<a href=""><img src="img/menos.png" alt="menos" width="20px" height="20px"></a>
+									<a href=""><img src="img/mas.png" alt="menos" width="20px" height="20px"></a> 
+				
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td> 
+							<div class="mas-menos">
+									<a href=""><img src="img/menos.png" alt="menos" width="20px" height="20px"></a>
+									<a href=""><img src="img/mas.png" alt="menos" width="20px" height="20px"></a> 
+				
+							</div>
+						</td>
 					</tr>
 				</table>
+				<br>
+				<div>
+					<button class="guardar">Guardar</button>
+				</div>
 			</div>
 		</div>
 	</section>
