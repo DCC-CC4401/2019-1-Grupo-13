@@ -290,19 +290,23 @@ table{
 	.eval-menu{
 		display: none;
 	}
-	.menu-bar{
+	/* .menu-bar{
 		display: table-cell;
 		vertical-align: middle;
 		margin-right: 5px;
 	}
 	.menu-bar-img{
 		position: absolute;
- 		top:50%;
+         top:50%;
  		margin-top: -75;
-	}
+	} */
 	.view-eval{
-		margin: 0 20px 0 40px;
-	}
+        min-height: 800px;
+		margin: 0 20px 0 20px;
+    }
+    .editor-box{
+        height: 780px;
+    }
 }
 
 @media (max-width: 500px){
